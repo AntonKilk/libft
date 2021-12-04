@@ -6,7 +6,7 @@
 /*   By: akilk <akilk@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 13:26:14 by akilk             #+#    #+#             */
-/*   Updated: 2021/12/02 12:09:00 by akilk            ###   ########.fr       */
+/*   Updated: 2021/12/04 14:18:01 by akilk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ int		ft_isascii(int c);
 int		ft_isprint(int c);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
-int		ft_atoi(char *str);
+int		ft_atoi(const char *str);
 
 /*
 **************************PART TWO********************************************
