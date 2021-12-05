@@ -6,7 +6,7 @@
 /*   By: akilk <akilk@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 20:03:37 by akilk             #+#    #+#             */
-/*   Updated: 2021/12/04 14:37:03 by akilk            ###   ########.fr       */
+/*   Updated: 2021/12/05 12:57:45 by akilk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ t_list	*ft_lstnew(void const *content, size_t content_size)
 	{
 		ptr->content = NULL;
 		ptr->content_size = 0;
+		ptr->next = NULL;
 		return (ptr);
 	}
 	ptr->content = ft_memalloc(content_size);
