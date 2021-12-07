@@ -6,14 +6,14 @@
 /*   By: akilk <akilk@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/10 08:35:01 by akilk             #+#    #+#             */
-/*   Updated: 2021/11/19 10:13:40 by akilk            ###   ########.fr       */
+/*   Updated: 2021/12/07 15:21:11 by akilk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-void	*ft_memalloc(ssize_t size)
+void	*ft_memalloc(size_t size)
 {
 	char	*s;
 

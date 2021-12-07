@@ -6,7 +6,7 @@
 /*   By: akilk <akilk@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 13:26:14 by akilk             #+#    #+#             */
-/*   Updated: 2021/12/04 14:18:01 by akilk            ###   ########.fr       */
+/*   Updated: 2021/12/07 15:21:49 by akilk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,9 +58,9 @@ int		ft_atoi(const char *str);
 **************************PART TWO********************************************
 */
 
-void	*ft_memalloc(ssize_t size);
+void	*ft_memalloc(size_t size);
 void	ft_memdel(void **ap);
-char	*ft_strnew(ssize_t size);
+char	*ft_strnew(size_t size);
 void	ft_strdel(char **as);
 void	ft_strclr(char *s);
 void	ft_striter(char *s, void (*f)(char *));
