@@ -6,13 +6,13 @@
 /*   By: akilk <akilk@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 15:38:55 by akilk             #+#    #+#             */
-/*   Updated: 2021/12/02 12:09:19 by akilk            ###   ########.fr       */
+/*   Updated: 2022/01/02 10:05:52 by akilk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_lstdel(t_list **alst, void(*del)(void *, size_t))
+void	ft_lstdel(t_list **alst, void (*del)(void *, size_t))
 {
 	t_list	*temp;
 

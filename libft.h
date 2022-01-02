@@ -6,7 +6,7 @@
 /*   By: akilk <akilk@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 13:26:14 by akilk             #+#    #+#             */
-/*   Updated: 2021/12/07 15:21:49 by akilk            ###   ########.fr       */
+/*   Updated: 2022/01/02 10:07:51 by akilk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ char	*ft_strnew(size_t size);
 void	ft_strdel(char **as);
 void	ft_strclr(char *s);
 void	ft_striter(char *s, void (*f)(char *));
-void	ft_striteri(char *s, void(*f)(unsigned int, char *));
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 char	*ft_strmap(char const *s, char (*f)(char));
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 int		ft_strequ(char const *s1, char const *s2);
@@ -89,9 +89,9 @@ void	ft_putnbr_fd(int n, int fd);
 
 t_list	*ft_lstnew(void const *content, size_t content_size);
 void	ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
-void	ft_lstdel(t_list **alst, void(*del)(void *, size_t));
+void	ft_lstdel(t_list **alst, void (*del)(void *, size_t));
 void	ft_lstadd(t_list **alst, t_list *new);
-void	ft_lstiter(t_list *lst, void(*f)(t_list *elem));
+void	ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
 /*
@@ -101,7 +101,7 @@ t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 int		ft_isbetween(long long min, long long max, long long value);
 int		ft_abs(int n);
 int		ft_swap(int *a, int *b);
-void	ft_foreach(int *tab, int length, void(*f)(int));
-t_list	**ft_lstrev(t_list **alst);
+void	ft_foreach(int *tab, int length, void (*f)(int));
+void	ft_lstrev(t_list **alst);
 
 #endif

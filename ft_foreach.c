@@ -6,11 +6,11 @@
 /*   By: akilk <akilk@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/26 11:11:21 by akilk             #+#    #+#             */
-/*   Updated: 2021/12/02 12:07:20 by akilk            ###   ########.fr       */
+/*   Updated: 2022/01/02 10:07:37 by akilk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_foreach(int *tab, int length, void(*f)(int))
+void	ft_foreach(int *tab, int length, void (*f)(int))
 {
 	int	i;
 
